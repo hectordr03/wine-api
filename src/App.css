@@ -1,8 +1,7 @@
-.wine {
-    border: 3px solid red;
-    text-align: center;
+li {
+    list-style: none;
 }
 
-.wines-list{
+.App{
     text-align: center;
 }

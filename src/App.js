@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import Wines from './components/Wines';
 import axios from 'axios';
+// import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Wines info={this.state.info} />
+        <h1>Hi</h1>
       </div>
     );
   }
